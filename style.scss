@@ -22,7 +22,7 @@ $fontfamily:"";
 // Переменные
 
 $minwidth: 320px;
-$mw: 1170;
+$mw: 1420;
 $md1: $mw+12;
 $md2: 992.98;
 $md3: 767.98;
@@ -76,8 +76,10 @@ h1, h2, h3, h4, h5, h6 {font-weight: inherit; font-size: inherit;}
 
 // Основной блок
 
-body {
-    color: red;
+.header-top {
+    height: 30px;
+    background-color: #000C2C;
+    color: #DAE0E8;
 }
 
 // Подключение файлов UI стилей, форм и готовых классов
