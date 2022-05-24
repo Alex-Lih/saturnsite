@@ -1,0 +1,22 @@
+.header-top {
+    height: 30px;
+    background-color: $PrimaryDark;
+    color: $Silver;
+    font-size: 14px;
+    .header-top__container {
+        height: inherit;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .header-top__nav {
+            ul {
+                display: flex;
+            }
+        }
+
+        .header-top__right {
+            display: flex;
+            font-size: 12px;
+        }
+    }
+}

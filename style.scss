@@ -110,23 +110,17 @@ h1, h2, h3, h4, h5, h6 {font-weight: inherit; font-size: inherit;}
 
 // Основная сетка
 
-.container {max-width: $mw+px; margin: 0 auto; width: 100%;
+[class*="__container"] {max-width: $mw+px; margin: 0 auto; width: 100%;
     @media (max-width:$md1+px) {max-width: 970px;}
     @media (max-width:$md2+px) {max-width: 750px;}
     @media (max-width:$md3+px) {max-width: none; padding: 0 10px;}
 }
 
-// Подключение файлов, стилей, страниц и элементов
-//@import "header.scss";
-
-// Основной блок
-
-.header-top {
-    height: 30px;
-    background-color: #000C2C;
-    color: #DAE0E8;
-}
-
 // Подключение файлов UI стилей, форм и готовых классов
 //@import "forms.scss";
-//@import "ui.scss";
+@import "scss/_ui.scss";
+
+// Подключение файлов, стилей, страниц и элементов
+@import "scss/_header.scss";
+
+// Основной блок

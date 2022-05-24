@@ -133,26 +133,26 @@ h1, h2, h3, h4, h5, h6 {
   overflow: hidden;
 }
 
-.container {
+[class*="__container"] {
   max-width: 1420px;
   margin: 0 auto;
   width: 100%;
 }
 
 @media (max-width: 1432px) {
-  .container {
+  [class*="__container"] {
     max-width: 970px;
   }
 }
 
 @media (max-width: 992.98px) {
-  .container {
+  [class*="__container"] {
     max-width: 750px;
   }
 }
 
 @media (max-width: 767.98px) {
-  .container {
+  [class*="__container"] {
     max-width: none;
     padding: 0 10px;
   }
@@ -162,5 +162,32 @@ h1, h2, h3, h4, h5, h6 {
   height: 30px;
   background-color: #000C2C;
   color: #DAE0E8;
+  font-size: 14px;
+}
+
+.header-top .header-top__container {
+  height: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-top .header-top__container .header-top__nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header-top .header-top__container .header-top__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 12px;
 }
 /*# sourceMappingURL=style.css.map */
