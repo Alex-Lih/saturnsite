@@ -63,3 +63,17 @@
         }
     }
 }
+
+.header-bottom {
+    height: 70px;
+    background-color: $White;
+    border-radius: 10px;
+    box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.4);
+    margin-top: 10px;
+    .header-bottom__container {
+        height: inherit;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

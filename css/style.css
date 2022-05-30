@@ -257,4 +257,26 @@ h1, h2, h3, h4, h5, h6 {
 .header-top .header-top__container .header-top__right .list__href p {
   margin-left: 8px;
 }
+
+.header-bottom {
+  height: 70px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  -webkit-box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.4);
+          box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.4);
+  margin-top: 10px;
+}
+
+.header-bottom .header-bottom__container {
+  height: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
 /*# sourceMappingURL=style.css.map */
