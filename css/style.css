@@ -64,7 +64,7 @@ html, body {
   min-width: 320px;
   position: relative;
   width: 100%;
-  color: #000;
+  color: #000C2C;
 }
 
 body {
@@ -267,7 +267,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 10px;
 }
 
-.header-bottom .header-bottom__container {
+.header-bottom .header-bottom__inner {
   height: inherit;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -278,5 +278,82 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 0 22px 0 22px;
+}
+
+.header-bottom .header-bottom__inner .header-bottom__center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-bottom .header-bottom__inner .header-bottom__center .catalog {
+  font-size: 12px;
+  color: #374F81;
+}
+
+.header-bottom .header-bottom__inner .header-bottom__center .catalog p {
+  margin-top: 6px;
+}
+
+.header-bottom .header-bottom__inner .header-bottom__center .input {
+  font-size: 12px;
+  margin-left: 24px;
+}
+
+.header-bottom .header-bottom__inner .header-bottom__center .input input {
+  height: 31px;
+  width: 559px;
+  border-radius: 4px;
+  border: 1px solid #374F81;
+  padding-left: 11px;
+}
+
+.header-bottom .header-bottom__inner .header-bottom__center .input ::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #C4C4C4;
+  margin-left: 11px;
+}
+
+.header-bottom .header-bottom__inner .header-bottom__center .input ::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #C4C4C4;
+  margin-left: 11px;
+}
+
+.header-bottom .header-bottom__inner .header-bottom__center .input :-ms-input-placeholder {
+  /* IE 10+ */
+  color: #C4C4C4;
+  margin-left: 11px;
+}
+
+.header-bottom .header-bottom__inner .header-bottom__center .input p {
+  text-align: left;
+  color: #666666;
+  margin-top: 4px;
+}
+
+.header-bottom .header-bottom__inner .header-bottom__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 323px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header-bottom .header-bottom__inner .header-bottom__right p {
+  font-size: 12px;
+  color: #666666;
+  margin-top: 3px;
 }
 /*# sourceMappingURL=style.css.map */
